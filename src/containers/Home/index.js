@@ -24,11 +24,11 @@ export function Home() {
       <Header />
       <QuadranName />
       <OurMission />
-      {/* <Events /> */}
-      {/* <Schedule /> */}
-      {/* <Cults /> */}
-      {/* <MissionaryGroups /> */}
-      {/* <Baseboard /> */}
+      <Events />
+      <Schedule />
+      <Cults />
+      <MissionaryGroups />
+      <Baseboard />
     </>
   )
 }
