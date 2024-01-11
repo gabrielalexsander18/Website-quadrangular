@@ -1,4 +1,3 @@
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import React from 'react'
 
 // import LogoPortfolio from '../../assets/logo-portfolio.png'
@@ -32,7 +31,7 @@ export function Home() {
       <Cults />
       <MissionaryGroups />
       <Baseboard />
-      <SpeedInsights />
+
       {/* </Container> */}
     </>
   )
