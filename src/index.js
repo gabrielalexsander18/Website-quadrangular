@@ -1,4 +1,4 @@
-import { SpeedInsights } from '@vercel/speed-insights/next'
+// import { SpeedInsights } from '@vercel/speed-insights/next'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
@@ -12,6 +12,6 @@ root.render(
     <MyRoutes />
 
     <GlobalStyles />
-    <SpeedInsights />
+    {/* <SpeedInsights /> */}
   </>
 )

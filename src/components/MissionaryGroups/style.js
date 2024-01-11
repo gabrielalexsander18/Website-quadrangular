@@ -13,7 +13,7 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 45px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     height: calc(100vh - 146px);
     padding: 27px 0 70px;
 
@@ -47,8 +47,12 @@ export const Container = styled.div`
 export const Img = styled.img`
   margin: 0 40px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     width: 800px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 730px;
   }
   /* @media (max-width: 768px) {
     font-size: 13px;
@@ -65,8 +69,13 @@ export const Paragraph = styled.p`
   font-weight: 400;
   margin: 0 150px 0 107px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     margin: 0 130px 0 100px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 38px;
+    margin: 0 90px 0 90px;
   }
 
   /* @media (max-width: 1008px) {
@@ -107,8 +116,13 @@ export const Button = styled.button`
   font-weight: 700;
   text-align: center;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     margin-left: 100px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 38px;
+    margin-left: 90px;
   }
 
   /* @media (max-width: 1008px) {

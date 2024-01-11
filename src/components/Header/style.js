@@ -13,11 +13,19 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-around;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     height: 34px;
     padding: 0px;
   }
 
+  @media (max-width: 1024px) {
+    height: 30px;
+    padding: 0px;
+  }
+
+  @media (max-width: 428px) {
+    display: none;
+  }
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -56,8 +64,16 @@ export const PageLink = styled.a`
   border-bottom: ${props => props.isActive && '2px solid #DEB887'};
   font-weight: ${props => (props.isActive ? '700' : '400')}; */
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     font-size: 18px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 17px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
   }
 
   /* @media (max-width: 768px) {
@@ -74,6 +90,10 @@ export const ContainerRigth = styled.div`
   display: flex;
   align-items: center;
   gap: 60px;
+
+  @media (max-width: 768px) {
+    gap: 50px;
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;

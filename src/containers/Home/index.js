@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import LogoPortfolio from '../../assets/logo-portfolio.png'
 import {
   Header,
   QuadranName,
@@ -22,17 +21,14 @@ import {
 export function Home() {
   return (
     <>
-      {/* <Container> */}
       <Header />
       <QuadranName />
       <OurMission />
-      <Events />
-      <Schedule />
-      <Cults />
-      <MissionaryGroups />
-      <Baseboard />
-
-      {/* </Container> */}
+      {/* <Events /> */}
+      {/* <Schedule /> */}
+      {/* <Cults /> */}
+      {/* <MissionaryGroups /> */}
+      {/* <Baseboard /> */}
     </>
   )
 }

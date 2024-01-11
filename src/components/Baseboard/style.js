@@ -17,7 +17,7 @@ export const Container = styled.div`
   justify-content: center;
   gap: 11px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     height: 146px;
     padding: 5px 0;
   }
@@ -66,7 +66,7 @@ export const PageLink = styled.a`
     text-decoration: underline;
   }
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     font-size: 20px;
   }
 
@@ -87,7 +87,7 @@ export const ContainerTop = styled.div`
   flex-direction: column;
   gap: 15px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     gap: 10px;
   }
 

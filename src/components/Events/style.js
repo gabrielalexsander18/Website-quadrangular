@@ -90,7 +90,7 @@ export const Container = styled.div`
     box-shadow: 0 0 1px 3px rgba(0, 245, 255);
   }
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     gap: 3px;
   }
 
@@ -143,7 +143,7 @@ export const Img = styled.img`
   margin: 63px 0 0 84px;
   z-index: 1;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     margin: ${px2vw(35)} 0 0 ${px2vw(80)};
   }
 
@@ -162,7 +162,7 @@ export const Item = styled.div`
     border: 1px solid #00f0ff;
   }
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     img {
       width: 250px;
     }

@@ -16,8 +16,12 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 30px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     gap: 15px;
+  }
+
+  @media (max-width: 1024px) {
+    gap: 25px;
   }
 
   /* @media (max-width: 1008px) {
@@ -47,9 +51,14 @@ export const Container = styled.div`
 export const Img = styled.img`
   margin: 56px 0 30px 42px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     margin: ${px2vw(35)} 0 0 0;
   }
+
+  @media (max-width: 1024px) {
+    margin: ${px2vw(150)} 0 0 ${px2vw(-50)};
+  }
+
   /* z-index: 1; */
   /* @media (max-width: 768px) {
     font-size: 13px;
@@ -90,10 +99,13 @@ export const ContainerImgDate = styled.div`
   background: rgba(217, 217, 217, 0.5);
   backdrop-filter: blur(2px);
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1440px) {
     padding: 15px 40px;
   }
 
+  @media (max-width: 1024px) {
+    padding: 15px 25px;
+  }
   /* position: absolute;
   left: 0px;
   bottom: 0; */
@@ -114,6 +126,9 @@ export const ContainerImgDate = styled.div`
 `
 
 export const ImageDates = styled.img`
+  @media (max-width: 1024px) {
+    width: 950px;
+  }
   /* position: absolute;
   left: 0px;
   bottom: 0; */
