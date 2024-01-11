@@ -39,6 +39,11 @@ export const Container = styled.div`
 
 export const Img = styled.img`
   margin: 14px 0;
+
+  @media (max-width: 1366px) {
+    margin: 7px 0;
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }

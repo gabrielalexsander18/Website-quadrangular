@@ -93,6 +93,10 @@ export const Container = styled.div`
     box-shadow: 0 0 1px 3px rgba(112, 128, 144);
   }
 
+  @media (max-width: 1366px) {
+    gap: 3px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -140,6 +144,11 @@ export const ContainerCarousel = styled.div`
 
 export const Img = styled.img`
   margin: 63px 0 0 84px;
+
+  @media (max-width: 1366px) {
+    margin: ${px2vw(35)} 0 0 ${px2vw(80)};
+  }
+
   /* z-index: 1; */
   /* @media (max-width: 768px) {
     font-size: 13px;
@@ -154,6 +163,12 @@ export const Item = styled.div`
   img {
     width: 286px;
     border: 1px solid #00f0ff;
+  }
+
+  @media (max-width: 1366px) {
+    img {
+      width: 250px;
+    }
   }
 
   /* color: #ffffff;

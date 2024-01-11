@@ -6,13 +6,17 @@ export const Container = styled.div`
   width: 100%;
   height: 52px;
   background-color: #141414;
-  /* border-radius: 40px; */
   padding: 28px;
 
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 1366px) {
+    height: 34px;
+    padding: 0px;
+  }
 
   /* @media (max-width: 1008px) {
     width: 450px;
@@ -45,12 +49,16 @@ export const PageLink = styled.a`
 
   font-size: 20px;
   line-height: 19px;
-  padding-bottom: 3px;
+  /* padding-bottom: 3px; */
 
   color: #ffffff;
   /* color: ${props => (props.isActive ? '#DEB887' : '#ffffff')};
   border-bottom: ${props => props.isActive && '2px solid #DEB887'};
   font-weight: ${props => (props.isActive ? '700' : '400')}; */
+
+  @media (max-width: 1366px) {
+    font-size: 18px;
+  }
 
   /* @media (max-width: 768px) {
     font-size: 13px;

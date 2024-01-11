@@ -23,7 +23,7 @@ export function Events() {
     { width: 400, itemsToShow: 2, itemsToScroll: 2, pagination: false },
     { width: 600, itemsToShow: 3, itemsToScroll: 2 },
     { width: 900, itemsToShow: 4, itemsToScroll: 3 },
-    { width: 1300, itemsToShow: 5, itemsToScroll: 4 }
+    { width: 1367, itemsToShow: 5, itemsToScroll: 4 }
   ]
 
   return (

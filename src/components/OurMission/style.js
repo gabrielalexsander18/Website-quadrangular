@@ -13,6 +13,10 @@ export const Container = styled.div`
   justify-content: flex-start;
   gap: 32px;
 
+  @media (max-width: 1366px) {
+    gap: 22px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -38,9 +42,6 @@ export const Container = styled.div`
 `
 
 export const ContainerLeft = styled.div`
-  /* width: 100%; */
-  background-color: #ffffff;
-
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -75,6 +76,12 @@ export const ContainerRed = styled.div`
   height: calc(100vh - 176px);
 
   background: #b30909;
+
+  @media (max-width: 1366px) {
+    width: 60px;
+    height: calc(100vh - 140px);
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -89,6 +96,11 @@ export const ContainerYellow = styled.div`
   height: calc(100vh - 176px);
 
   background: #ffec3c;
+
+  @media (max-width: 1366px) {
+    width: 60px;
+    height: calc(100vh - 140px);
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;
@@ -109,6 +121,11 @@ export const ContainerBlue = styled.div`
 
   background: #081a77;
 
+  @media (max-width: 1366px) {
+    width: 60px;
+    height: calc(100vh - 140px);
+  }
+
   /* @media (max-width: 1008px) {
     gap: 20px;
   }
@@ -127,6 +144,11 @@ export const ContainerPurple = styled.div`
   height: calc(100vh - 176px);
 
   background: #611093;
+
+  @media (max-width: 1366px) {
+    width: 60px;
+    height: calc(100vh - 140px);
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;
@@ -155,6 +177,11 @@ export const ContainerRight = styled.div`
   flex-direction: column;
   justify-content: none;
 
+  @media (max-width: 1366px) {
+    padding: 20px 40px 20px 27px;
+    margin: 7px 12px 14px 0;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -180,6 +207,9 @@ export const ContainerRight = styled.div`
 `
 
 export const MissionOur = styled.img`
+  @media (max-width: 1366px) {
+    width: 300px;
+  }
   /* position: absolute; */
 
   /* @media (max-width: 1008px) {
@@ -203,6 +233,10 @@ export const ContainerP = styled.div`
   align-items: flex-start;
   flex-direction: column;
   justify-content: none;
+
+  @media (max-width: 1366px) {
+    width: 100%;
+  }
 
   /* @media (max-width: 1008px) {
     width: 450px;
@@ -234,6 +268,11 @@ export const Caption = styled.p`
   line-height: normal;
   margin: 20px 0 5px;
 
+  @media (max-width: 1366px) {
+    font-size: 25px;
+    margin: 15px 0 5px;
+  }
+
   /* @media (max-width: 1008px) {
   gap: 20px;
 }
@@ -250,6 +289,10 @@ export const Paragraph = styled.p`
   font-size: 35px;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 1366px) {
+    font-size: 25px;
+  }
 
   /* @media (max-width: 1008px) {
   gap: 20px;

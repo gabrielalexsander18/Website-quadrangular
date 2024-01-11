@@ -17,6 +17,11 @@ export const Container = styled.div`
   justify-content: center;
   gap: 11px;
 
+  @media (max-width: 1366px) {
+    height: 146px;
+    padding: 5px 0;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -57,6 +62,14 @@ export const PageLink = styled.a`
   /* border-bottom: ${props => props.isActive && '2px solid #DEB887'}; */
   /* font-weight: ${props => (props.isActive ? '700' : '400')}; */
 
+  p {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1366px) {
+    font-size: 20px;
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -64,10 +77,6 @@ export const PageLink = styled.a`
   @media (max-width: 425px) {
     font-size: ${px2vw(50)};
   } */
-
-  p {
-    text-decoration: underline;
-  }
 `
 
 export const ContainerTop = styled.div`
@@ -77,6 +86,10 @@ export const ContainerTop = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 15px;
+
+  @media (max-width: 1366px) {
+    gap: 10px;
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;

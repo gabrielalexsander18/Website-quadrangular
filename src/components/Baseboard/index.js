@@ -31,14 +31,14 @@ export function Baseboard() {
             target="_blank"
             rel="noreferrer"
           >
-            <InstagramIconEdit sx={{ fontSize: 40 }} /> <p>@ieqourobranco</p>
+            <InstagramIconEdit sx={{ fontSize: 30 }} /> <p>@ieqourobranco</p>
           </PageLink>
           <PageLink
             href="https://www.facebook.com/quadrangularourobranco"
             target="_blank"
             rel="noreferrer"
           >
-            <FacebookIconEdit sx={{ fontSize: 40 }} />
+            <FacebookIconEdit sx={{ fontSize: 30 }} />
             <p>Quadrangular Ouro Branco</p>
           </PageLink>
         </ContainerBotton>

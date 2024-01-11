@@ -16,6 +16,10 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 30px;
 
+  @media (max-width: 1366px) {
+    gap: 15px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -42,6 +46,10 @@ export const Container = styled.div`
 
 export const Img = styled.img`
   margin: 56px 0 30px 42px;
+
+  @media (max-width: 1366px) {
+    margin: ${px2vw(35)} 0 0 0;
+  }
   /* z-index: 1; */
   /* @media (max-width: 768px) {
     font-size: 13px;
@@ -81,6 +89,11 @@ export const ContainerImgDate = styled.div`
   border-radius: 85px;
   background: rgba(217, 217, 217, 0.5);
   backdrop-filter: blur(2px);
+
+  @media (max-width: 1366px) {
+    padding: 15px 40px;
+  }
+
   /* position: absolute;
   left: 0px;
   bottom: 0; */

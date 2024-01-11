@@ -13,6 +13,13 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 45px;
 
+  @media (max-width: 1366px) {
+    height: calc(100vh - 146px);
+    padding: 27px 0 70px;
+
+    gap: 22px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -39,6 +46,10 @@ export const Container = styled.div`
 
 export const Img = styled.img`
   margin: 0 40px;
+
+  @media (max-width: 1366px) {
+    width: 800px;
+  }
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -53,6 +64,10 @@ export const Paragraph = styled.p`
   font-size: 40px;
   font-weight: 400;
   margin: 0 150px 0 107px;
+
+  @media (max-width: 1366px) {
+    margin: 0 130px 0 100px;
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;
@@ -91,6 +106,10 @@ export const Button = styled.button`
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+
+  @media (max-width: 1366px) {
+    margin-left: 100px;
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;
