@@ -20,6 +20,13 @@ export const Container = styled.div`
     gap: 22px;
   }
 
+  @media (max-width: 428px) {
+    height: calc(100vh - 146px);
+    padding: 27px 0 0px;
+
+    gap: 22px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -54,6 +61,11 @@ export const Img = styled.img`
   @media (max-width: 1024px) {
     width: 730px;
   }
+
+  @media (max-width: 428px) {
+    width: ${px2vw(1250)};
+    margin: 0 ${px2vw(80)};
+  }
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -76,6 +88,11 @@ export const Paragraph = styled.p`
   @media (max-width: 1024px) {
     font-size: 38px;
     margin: 0 90px 0 90px;
+  }
+
+  @media (max-width: 428px) {
+    font-size: ${px2vw(100)};
+    margin: 0 ${px2vw(70)} 0 ${px2vw(90)};
   }
 
   /* @media (max-width: 1008px) {
@@ -125,6 +142,12 @@ export const Button = styled.button`
     margin-left: 90px;
   }
 
+  @media (max-width: 428px) {
+    width: ${px2vw(600)};
+    height: ${px2vw(120)};
+    font-size: ${px2vw(100)};
+    margin-left: ${px2vw(90)};
+  }
   /* @media (max-width: 1008px) {
     gap: 20px;
   }

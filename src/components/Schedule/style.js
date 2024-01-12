@@ -59,6 +59,11 @@ export const Img = styled.img`
     margin: ${px2vw(150)} 0 0 ${px2vw(-50)};
   }
 
+  @media (max-width: 428px) {
+    margin: ${px2vw(350)} 0 ${px2vw(200)} ${px2vw(-110)};
+    width: ${px2vw(1450)};
+  }
+
   /* z-index: 1; */
   /* @media (max-width: 768px) {
     font-size: 13px;
@@ -106,6 +111,11 @@ export const ContainerImgDate = styled.div`
   @media (max-width: 1024px) {
     padding: 15px 25px;
   }
+
+  @media (max-width: 428px) {
+    padding: 10px 10px;
+    border-radius: 35px;
+  }
   /* position: absolute;
   left: 0px;
   bottom: 0; */
@@ -128,6 +138,10 @@ export const ContainerImgDate = styled.div`
 export const ImageDates = styled.img`
   @media (max-width: 1024px) {
     width: 950px;
+  }
+
+  @media (max-width: 428px) {
+    width: ${px2vw(1370)};
   }
   /* position: absolute;
   left: 0px;

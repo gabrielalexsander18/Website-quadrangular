@@ -19,7 +19,7 @@ import {
 
 export function Events() {
   const breakPoints = [
-    { width: 1, itemsToShow: 1, itemsToScroll: 1 },
+    { width: 1, itemsToShow: 1, itemsToScroll: 1, pagination: false },
     { width: 400, itemsToShow: 2, itemsToScroll: 2, pagination: false },
     { width: 600, itemsToShow: 3, itemsToScroll: 2 },
     { width: 900, itemsToShow: 4, itemsToScroll: 3 },

@@ -22,6 +22,11 @@ export const Container = styled.div`
     padding: 5px 0;
   }
 
+  /* @media (max-width: 428px) {
+    height: ${px2vw(420)};
+    padding: 5px 0;
+  } */
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -70,6 +75,10 @@ export const PageLink = styled.a`
     font-size: 20px;
   }
 
+  @media (max-width: 428px) {
+    font-size: ${px2vw(60)};
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -112,6 +121,10 @@ export const ContainerBotton = styled.div`
   justify-content: center;
   flex-direction: row;
   gap: 165px;
+
+  @media (max-width: 428px) {
+    gap: ${px2vw(240)};
+  }
 
   /* @media (max-width: 1008px) {
     gap: 20px;

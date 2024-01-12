@@ -147,6 +147,10 @@ export const Img = styled.img`
     margin: ${px2vw(35)} 0 0 ${px2vw(80)};
   }
 
+  @media (max-width: 428px) {
+    width: ${px2vw(1150)};
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
@@ -165,6 +169,12 @@ export const Item = styled.div`
   @media (max-width: 1440px) {
     img {
       width: 250px;
+    }
+  }
+
+  @media (max-width: 428px) {
+    img {
+      width: ${px2vw(900)};
     }
   }
 
@@ -208,6 +218,10 @@ export const ContainerLines = styled.div`
 export const ImageLineOne = styled.img`
   position: absolute;
   right: 0px;
+
+  @media (max-width: 428px) {
+    width: 100px;
+  }
   /* cursor: pointer;
   width: 10px;
   height: 10px;
@@ -228,6 +242,11 @@ export const ImageLineTwo = styled.img`
   position: absolute;
   right: 0px;
   bottom: 0;
+
+  @media (max-width: 428px) {
+    width: 200px;
+  }
+
   /* cursor: pointer;
   width: 10px;
   height: 10px;
@@ -248,6 +267,10 @@ export const ImageLineThree = styled.img`
   position: absolute;
   left: 0px;
   bottom: 0;
+
+  @media (max-width: 428px) {
+    width: 200px;
+  }
   /* cursor: pointer;
   width: 10px;
   height: 10px;
