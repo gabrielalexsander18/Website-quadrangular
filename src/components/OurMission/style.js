@@ -85,7 +85,7 @@ export const ContainerLeft = styled.div`
 
 export const ContainerRed = styled.div`
   width: 100px;
-  height: calc(100vh - 176px);
+  height: calc(100vh - (${px2vw(135)}));
 
   background: #b30909;
 
@@ -124,7 +124,7 @@ export const ContainerRed = styled.div`
 
 export const ContainerYellow = styled.div`
   width: 100px;
-  height: calc(100vh - 176px);
+  height: calc(100vh - (${px2vw(135)}));
 
   background: #ffec3c;
 
@@ -166,7 +166,7 @@ export const ContainerYellow = styled.div`
 
 export const ContainerBlue = styled.div`
   width: 100px;
-  height: calc(100vh - 176px);
+  height: calc(100vh - (${px2vw(135)}));
 
   background: #081a77;
 
@@ -209,7 +209,7 @@ export const ContainerBlue = styled.div`
 
 export const ContainerPurple = styled.div`
   width: 100px;
-  height: calc(100vh - 176px);
+  height: calc(100vh - (${px2vw(135)}));
 
   background: #611093;
 
@@ -251,7 +251,6 @@ export const ContainerPurple = styled.div`
 
 export const ContainerRight = styled.div`
   width: 100%;
-  /* height: 100%; */
   margin: 14px 25px 14px 0;
   padding: 25px 56px 25px 35px;
   border-radius: 69px;
@@ -293,6 +292,12 @@ export const ContainerRight = styled.div`
     top: 57px;
   }
 
+  @media (max-width: 320px) {
+    height: calc(100vh - 48px);
+    top: 57.5px;
+    padding: 5px ${px2vw(7)} 6px 0;
+  }
+
   /* @media (max-width: 1008px) {
     width: ${px2vw(1030)};
     width: 450px;
@@ -332,6 +337,10 @@ export const MissionOur = styled.img`
     width: 230px;
   }
 
+  @media (max-width: 320px) {
+    width: 160px;
+  }
+
   /* position: absolute; */
 
   /* @media (max-width: 1008px) {
@@ -348,7 +357,7 @@ export const MissionOur = styled.img`
 `
 
 export const ContainerP = styled.div`
-  width: 1300px;
+  width: ${px2vw(1000)};
   padding-left: 21px;
 
   display: flex;
@@ -371,6 +380,10 @@ export const ContainerP = styled.div`
 
   @media (max-width: 390px) {
     padding-left: 10px;
+  }
+
+  @media (max-width: 320px) {
+    padding-left: 3.5px;
   }
 
   /* @media (max-width: 1008px) {
@@ -421,6 +434,11 @@ export const Caption = styled.p`
     font-size: 21px;
   }
 
+  @media (max-width: 320px) {
+    font-size: 17px;
+    margin-top: 7px;
+  }
+
   /* @media (max-width: 1008px) {
   gap: 20px;
 }
@@ -453,6 +471,10 @@ export const Paragraph = styled.p`
 
   @media (max-width: 390px) {
     font-size: 20.5px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 16.5px;
   }
 
   /* @media (max-width: 1008px) {

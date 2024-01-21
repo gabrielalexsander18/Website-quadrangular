@@ -22,6 +22,12 @@ export const Container = styled.div`
     padding: 5px 0;
   }
 
+  @media (max-width: 320px) {
+    height: 115px;
+
+    gap: 8px;
+  }
+
   /* @media (max-width: 428px) {
     height: ${px2vw(420)};
     padding: 5px 0;

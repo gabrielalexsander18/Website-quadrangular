@@ -99,6 +99,10 @@ export const Paragraph = styled.p`
   @media (max-width: 390px) {
     font-size: 17px;
   }
+
+  @media (max-width: 320px) {
+    font-size: 16px;
+  }
   /* 
   @media (max-width: 768px) {
     gap: 15px;

@@ -136,8 +136,14 @@ export const ContainerImgDate = styled.div`
 `
 
 export const ImageDates = styled.img`
+  width: ${px2vw(925)};
+
   @media (max-width: 1024px) {
     width: 950px;
+  }
+
+  @media (max-width: 768px) {
+    width: 710px;
   }
 
   @media (max-width: 428px) {

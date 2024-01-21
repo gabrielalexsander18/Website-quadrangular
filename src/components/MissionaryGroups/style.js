@@ -27,6 +27,13 @@ export const Container = styled.div`
     gap: 22px;
   }
 
+  @media (max-width: 320px) {
+    height: calc(100vh - 115px);
+    padding: 20px 0 0;
+
+    gap: 15px;
+  }
+
   /* @media (max-width: 1008px) {
     width: 450px;
     height: 60px;
@@ -147,6 +154,13 @@ export const Button = styled.button`
     height: ${px2vw(120)};
     font-size: ${px2vw(100)};
     margin-left: ${px2vw(90)};
+  }
+
+  @media (max-width: 320px) {
+    width: ${px2vw(550)};
+    height: ${px2vw(110)};
+    font-size: ${px2vw(95)};
+    margin-left: ${px2vw(80)};
   }
   /* @media (max-width: 1008px) {
     gap: 20px;
