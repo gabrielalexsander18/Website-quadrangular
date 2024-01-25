@@ -20,10 +20,10 @@ import {
 export function Events() {
   const breakPoints = [
     { width: 1, itemsToShow: 1, itemsToScroll: 1, pagination: false },
-    { width: 400, itemsToShow: 2, itemsToScroll: 2, pagination: false },
-    { width: 600, itemsToShow: 3, itemsToScroll: 2 },
-    { width: 900, itemsToShow: 4, itemsToScroll: 3 },
-    { width: 1367, itemsToShow: 5, itemsToScroll: 4 }
+    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+    { width: 850, itemsToShow: 3, itemsToScroll: 2 },
+    { width: 1150, itemsToShow: 4, itemsToScroll: 3 },
+    { width: 1450, itemsToShow: 5, itemsToScroll: 4 }
   ]
 
   return (
@@ -36,7 +36,7 @@ export function Events() {
             enableAutoPlay
             autoPlaySpeed={5000}
             focusOnSelect={true}
-            itemsToShow={4}
+            itemsToShow={5}
             style={{ width: '90%' }}
             breakPoints={breakPoints}
           >
