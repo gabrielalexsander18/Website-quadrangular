@@ -18,9 +18,10 @@ export function Baseboard() {
             Rua Turmalina, 23 - Alto Chalé<br></br> Ouro Branco, MG
           </PageLink>
           <PageLink
-            href="https://wa.me/5531974006306"
-            target="_blank"
-            rel="noreferrer"
+            // href="https://wa.me/5531974006306"
+            // target="_blank"
+            // rel="noreferrer"
+            style={{ cursor: 'default' }}
           >
             36492-102
           </PageLink>
