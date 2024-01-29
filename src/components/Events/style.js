@@ -151,6 +151,11 @@ export const Img = styled.img`
     width: ${px2vw(1150)};
   }
 
+  @media (max-width: 320px) {
+    margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(30)};
+    width: ${px2vw(1150)};
+  }
+
   /* @media (max-width: 768px) {
     font-size: 13px;
   }
