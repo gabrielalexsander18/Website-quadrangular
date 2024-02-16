@@ -28,7 +28,7 @@ export function Events() {
 
   return (
     <>
-      <Container>
+      <Container id="events">
         <Img src={logoEvents} alt="eventos" />
 
         <ContainerCarousel>

@@ -16,7 +16,7 @@ export function Cults() {
 
   return (
     <>
-      <Container>
+      <Container id="cults">
         <Img src={logoCults} alt="eventos" />
 
         <ContainerCarousel>

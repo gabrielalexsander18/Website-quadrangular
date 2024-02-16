@@ -27,7 +27,6 @@ export const Container = styled.div`
   .rec.rec-arrow:hover {
     border: 2px solid #02a9b5;
     border-radius: 50%;
-    /* background-color: #efefef; */
     background: rgba(112, 128, 144, 1); /* Old browsers */
     background: -moz-radial-gradient(
       center,
@@ -96,29 +95,6 @@ export const Container = styled.div`
   @media (max-width: 1440px) {
     gap: 3px;
   }
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const ContainerCarousel = styled.div`
@@ -127,19 +103,6 @@ export const ContainerCarousel = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* z-index: 1; */
-  /* margin-top: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: #00f0ff; */
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const Img = styled.img`
@@ -157,15 +120,6 @@ export const Img = styled.img`
     margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(30)};
     width: ${px2vw(1150)};
   }
-
-  /* z-index: 1; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const Item = styled.div`
@@ -185,18 +139,4 @@ export const Item = styled.div`
       width: ${px2vw(900)};
     }
   }
-  /* color: #ffffff;
-  font-size: 32px;
-  font-weight: 400; */
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `

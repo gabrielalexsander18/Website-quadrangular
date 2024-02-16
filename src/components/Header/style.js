@@ -51,7 +51,7 @@ export const Container = styled.div`
 `
 
 export const PageLink = styled.a`
-  /* cursor: pointer; */
+  cursor: pointer;
   background: none;
   text-decoration: none;
 

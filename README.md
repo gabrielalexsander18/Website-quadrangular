@@ -8,4 +8,5 @@
         MissionaryGroups          1920px,  1440px,  1024px,  768px,  428px,  390px,  320px
         Baseboard                 1920px,  1440px,  1024px,  768px,  428px,  390px,  320px
 
-        Arrumar a responsividade de todos os components
+    <===Arrumar o baseboard flutuante===>  Concluído
+    <===Colocar os links para funcionar===>

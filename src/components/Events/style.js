@@ -24,7 +24,6 @@ export const Container = styled.div`
   .rec.rec-arrow:hover {
     border: 2px solid #00f0ff;
     border-radius: 50%;
-    /* background-color: #efefef; */
     background: rgba(0, 245, 255, 0.8); /* Old browsers */
     background: -moz-radial-gradient(
       center,
@@ -93,29 +92,6 @@ export const Container = styled.div`
   @media (max-width: 1440px) {
     gap: 3px;
   }
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const ContainerCarousel = styled.div`
@@ -125,18 +101,6 @@ export const ContainerCarousel = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1;
-  /* margin-top: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: #00f0ff; */
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const Img = styled.img`
@@ -155,14 +119,6 @@ export const Img = styled.img`
     margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(30)};
     width: ${px2vw(1150)};
   }
-
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const Item = styled.div`
@@ -182,21 +138,6 @@ export const Item = styled.div`
       width: ${px2vw(900)};
     }
   }
-
-  /* color: #ffffff;
-  font-size: 32px;
-  font-weight: 400; */
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `
 
 export const ContainerLines = styled.div`
@@ -204,20 +145,6 @@ export const ContainerLines = styled.div`
   height: 100%;
   position: absolute;
   z-index: 0;
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ImageLineOne = styled.img`
@@ -227,20 +154,6 @@ export const ImageLineOne = styled.img`
   @media (max-width: 428px) {
     width: 100px;
   }
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ImageLineTwo = styled.img`
@@ -251,21 +164,6 @@ export const ImageLineTwo = styled.img`
   @media (max-width: 428px) {
     width: 200px;
   }
-
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ImageLineThree = styled.img`
@@ -276,18 +174,4 @@ export const ImageLineThree = styled.img`
   @media (max-width: 428px) {
     width: 200px;
   }
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `

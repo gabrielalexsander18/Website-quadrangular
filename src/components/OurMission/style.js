@@ -28,29 +28,6 @@ export const Container = styled.div`
   @media (max-width: 428px) {
     gap: 0;
   }
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const ContainerLeft = styled.div`
@@ -58,29 +35,6 @@ export const ContainerLeft = styled.div`
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const ContainerRed = styled.div`
@@ -112,14 +66,6 @@ export const ContainerRed = styled.div`
   @media (max-width: 390px) {
     height: calc(100vh - (${px2vw(219)}));
   }
-
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ContainerYellow = styled.div`
@@ -151,17 +97,6 @@ export const ContainerYellow = styled.div`
   @media (max-width: 390px) {
     height: calc(100vh - (${px2vw(219)}));
   }
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `
 
 export const ContainerBlue = styled.div`
@@ -193,18 +128,6 @@ export const ContainerBlue = styled.div`
   @media (max-width: 390px) {
     height: calc(100vh - (${px2vw(219)}));
   }
-
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `
 
 export const ContainerPurple = styled.div`
@@ -236,17 +159,6 @@ export const ContainerPurple = styled.div`
   @media (max-width: 390px) {
     height: calc(100vh - (${px2vw(219)}));
   }
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `
 
 export const ContainerRight = styled.div`
@@ -297,30 +209,6 @@ export const ContainerRight = styled.div`
     top: 57.5px;
     padding: 5px ${px2vw(7)} 6px 0;
   }
-
-  /* @media (max-width: 1008px) {
-    width: ${px2vw(1030)};
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const MissionOur = styled.img`
@@ -340,20 +228,6 @@ export const MissionOur = styled.img`
   @media (max-width: 320px) {
     width: 160px;
   }
-
-  /* position: absolute; */
-
-  /* @media (max-width: 1008px) {
-    gap: 20px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 425px) {
-    gap: ${px2vw(50)};
-  } */
 `
 
 export const ContainerP = styled.div`
@@ -385,29 +259,6 @@ export const ContainerP = styled.div`
   @media (max-width: 320px) {
     padding-left: 3.5px;
   }
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const Caption = styled.p`
@@ -438,18 +289,6 @@ export const Caption = styled.p`
     font-size: 17px;
     margin-top: 7px;
   }
-
-  /* @media (max-width: 1008px) {
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  gap: 15px;
-}
-
-@media (max-width: 425px) {
-  gap: ${px2vw(50)};
-} */
 `
 export const Paragraph = styled.p`
   font-size: 35px;
@@ -476,16 +315,4 @@ export const Paragraph = styled.p`
   @media (max-width: 320px) {
     font-size: 16.5px;
   }
-
-  /* @media (max-width: 1008px) {
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  gap: 15px;
-}
-
-@media (max-width: 425px) {
-  gap: ${px2vw(50)};
-} */
 `

@@ -27,29 +27,6 @@ export const Container = styled.div`
   @media (max-width: 428px) {
     gap: ${px2vw(55)};
   }
-
-  /* @media (max-width: 1008px) {
-    width: 450px;
-    height: 60px;
-  }
-
-  @media (max-width: 768px) {
-    width: 375px;
-    height: 55px;
-  }
-
-  @media (max-width: 425px) {
-    width: 100vw;
-    height: ${px2vw(215)};
-    background-color: #1c1a1a;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    border-radius: 10px 10px 0 0;
-
-    position: fixed;
-    z-index: 1;
-  } */
 `
 
 export const Img = styled.img`
@@ -72,15 +49,6 @@ export const Img = styled.img`
     margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(-110)};
     width: ${px2vw(1150)};
   }
-
-  /* z-index: 1; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ContainerDates = styled.div`
@@ -88,23 +56,6 @@ export const ContainerDates = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 100%;
-  position: absolute;
-  z-index: 0; */
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 export const ContainerImgDate = styled.div`
@@ -127,15 +78,6 @@ export const ContainerImgDate = styled.div`
     padding: 45px;
     margin: 10px 30px;
     gap: 40px;
-  }
-
-  @media (max-width: 1024px) {
-    /* padding: 15px 25px; */
-    /* p {
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 40px;
-    } */
   }
 
   @media (max-width: 428px) {
@@ -161,55 +103,4 @@ export const ContainerImgDate = styled.div`
       line-height: ${px2vw(115)};
     }
   }
-
-  /* position: absolute;
-  left: 0px;
-  bottom: 0; */
-  /* cursor: pointer;
-  width: 10px;
-  height: 10px;
-  background-color: #000000;
-  margin-left: 20px; */
-
-  /* margin: 14px 0; */
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
-
-// export const ImageDates = styled.img`
-//   width: ${px2vw(925)};
-
-//   @media (max-width: 1024px) {
-//     width: 950px;
-//   }
-
-//   @media (max-width: 768px) {
-//     width: 710px;
-//   }
-
-//   @media (max-width: 428px) {
-//     width: ${px2vw(1370)};
-//   }
-//   /* position: absolute;
-//   left: 0px;
-//   bottom: 0; */
-//   /* cursor: pointer;
-//   width: 10px;
-//   height: 10px;
-//   background-color: #000000;
-//   margin-left: 20px; */
-
-//   /* margin: 14px 0; */
-//   /* @media (max-width: 768px) {
-//     font-size: 13px;
-//   }
-
-//   @media (max-width: 425px) {
-//     font-size: ${px2vw(50)};
-//   } */
-// `

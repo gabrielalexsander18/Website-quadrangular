@@ -1,7 +1,9 @@
 import React from 'react'
-// import { useNavigate, useLocation } from 'react-router-dom'
+import { Link } from 'react-scroll'
+// import { useNavigate } from 'react-router-dom'
 
-import { Container, PageLink, ContainerRigth } from './style'
+// useLocation
+import { Container, ContainerRigth, PageLink } from './style'
 
 export function Header() {
   // const navigate = useNavigate()
@@ -11,38 +13,59 @@ export function Header() {
     <>
       <Container>
         <ContainerRigth>
-          <PageLink
-          // onClick={() => navigate('/')} isActive={pathname === '/'}
-          >
+          <PageLink>
+            {/* <Link
+              to="ourMission"
+              smooth={true}
+              duration={500}
+              // offset={-20}
+            > */}
             MISSÃO
+            {/* </Link> */}
           </PageLink>
 
-          <PageLink
-          // onClick={() => navigate('/projetos')}
-          // isActive={pathname.includes('/projetos')}
-          >
-            EVENTOS
+          <PageLink>
+            <Link
+              to="events"
+              smooth={true}
+              duration={500}
+              // offset={-20}
+            >
+              EVENTOS
+            </Link>
           </PageLink>
 
-          <PageLink
-          // onClick={() => navigate('/habilidades')}
-          // isActive={pathname.includes('/habilidades')}
-          >
-            AGENDA 2024
+          <PageLink>
+            <Link
+              to="schedule"
+              smooth={true}
+              duration={500}
+              // offset={-20}
+            >
+              AGENDA 2024
+            </Link>
           </PageLink>
 
-          <PageLink
-          // onClick={() => navigate('/educacao')}
-          // isActive={pathname.includes('/educacao')}
-          >
-            CULTOS
+          <PageLink>
+            <Link
+              to="cults"
+              smooth={true}
+              duration={500}
+              // offset={-20}
+            >
+              CULTOS
+            </Link>
           </PageLink>
 
-          <PageLink
-          // onClick={() => navigate('/contatos')}
-          // isActive={pathname.includes('/contatos')}
-          >
-            GRUPOS MISSIONÁRIOS
+          <PageLink>
+            <Link
+              to="missionaryGroups"
+              smooth={true}
+              duration={500}
+              // offset={-20}
+            >
+              GRUPOS MISSIONÁRIOS
+            </Link>
           </PageLink>
         </ContainerRigth>
       </Container>

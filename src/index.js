@@ -12,6 +12,5 @@ root.render(
     <MyRoutes />
 
     <GlobalStyles />
-    {/* <SpeedInsights /> */}
   </>
 )

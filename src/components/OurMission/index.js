@@ -18,7 +18,7 @@ import {
 export function OurMission() {
   return (
     <>
-      <Container>
+      <Container id="ourMission">
         <ContainerLeft>
           <ContainerRed></ContainerRed>
           <ContainerYellow></ContainerYellow>
