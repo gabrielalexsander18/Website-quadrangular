@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const Container = styled.div`
   width: 100%;
   height: calc(100vh - 230px);
-  background-color: #000000;
+  background-color: ${theme.colors.black};
   padding: 46px 0 100px;
 
   display: flex;
@@ -53,9 +54,10 @@ export const Img = styled.img`
 `
 
 export const Paragraph = styled.p`
-  color: #d9d9d9;
+  color: ${theme.colors.lightgray};
   font-size: 40px;
   font-weight: 400;
+  text-align: justify;
   margin: 0 150px 0 107px;
 
   @media (max-width: 1440px) {
@@ -74,13 +76,14 @@ export const Paragraph = styled.p`
 `
 
 export const Button = styled.button`
+  display: none;
   width: 233px;
   height: 51px;
   margin-left: 107px;
 
   border-radius: 50px;
   background: #d9d9d9;
-  box-shadow: 0px 7px 5px rgba(0, 240, 255, 0.5);
+  box-shadow: 0px 7px 5px ${theme.colors.cyan50};
 
   cursor: pointer;
   border: none;

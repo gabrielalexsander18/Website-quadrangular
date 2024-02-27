@@ -8,15 +8,9 @@ import {
   Schedule,
   Cults,
   MissionaryGroups,
-  Baseboard
+  Baseboard,
+  Vision
 } from '../../components'
-// import {
-//   Container
-//   // LogoPortfolioEdit,
-//   // ContainerLeft,
-//   // ContainerRigth,
-//   // Line
-// } from './style'
 
 export function Home() {
   return (
@@ -24,6 +18,7 @@ export function Home() {
       <Header />
       <QuadranName />
       <OurMission />
+      <Vision />
       <Events />
       <Schedule />
       <Cults />

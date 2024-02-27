@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: ${theme.colors.white};
 
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ export const ContainerRed = styled.div`
   width: 100px;
   height: calc(100vh - (${px2vw(135)}));
 
-  background: #b30909;
+  background: ${theme.colors.firered};
 
   @media (max-width: 1440px) {
     width: 60px;
@@ -72,7 +73,7 @@ export const ContainerYellow = styled.div`
   width: 100px;
   height: calc(100vh - (${px2vw(135)}));
 
-  background: #ffec3c;
+  background: ${theme.colors.goldyellow};
 
   @media (max-width: 1440px) {
     width: 60px;
@@ -103,7 +104,7 @@ export const ContainerBlue = styled.div`
   width: 100px;
   height: calc(100vh - (${px2vw(135)}));
 
-  background: #081a77;
+  background: ${theme.colors.midnightblue};
 
   @media (max-width: 1440px) {
     width: 60px;
@@ -134,7 +135,7 @@ export const ContainerPurple = styled.div`
   width: 100px;
   height: calc(100vh - (${px2vw(135)}));
 
-  background: #611093;
+  background: ${theme.colors.darkpurple};
 
   @media (max-width: 1440px) {
     width: 60px;
@@ -166,7 +167,7 @@ export const ContainerRight = styled.div`
   margin: 14px 25px 14px 0;
   padding: 25px 56px 25px 35px;
   border-radius: 69px;
-  background: rgba(217, 217, 217, 0.5);
+  background: ${theme.colors.lightgray50};
   backdrop-filter: blur(2px);
 
   display: flex;
@@ -196,7 +197,7 @@ export const ContainerRight = styled.div`
     padding: 10px ${px2vw(15)} 6px ${px2vw(7)};
     width: 100vw;
     height: calc(100vh - 74px);
-    background: rgba(217, 217, 217, 0.6);
+    background: ${theme.colors.lightgray60};
   }
 
   @media (max-width: 390px) {
@@ -290,10 +291,12 @@ export const Caption = styled.p`
     margin-top: 7px;
   }
 `
+
 export const Paragraph = styled.p`
   font-size: 35px;
   font-weight: 400;
   line-height: normal;
+  text-align: justify;
 
   @media (max-width: 1440px) {
     font-size: 25px;

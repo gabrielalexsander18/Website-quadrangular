@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const Container = styled.div`
   width: 100%;
-  background-color: #040000;
+  background-color: ${theme.colors.dark};
   padding: 0 45px;
 
   display: flex;
@@ -54,7 +55,7 @@ export const Img = styled.img`
 `
 
 export const Paragraph = styled.p`
-  color: #faf3f3;
+  color: ${theme.colors.mediumwhite};
   font-size: 32px;
   font-weight: 400;
 

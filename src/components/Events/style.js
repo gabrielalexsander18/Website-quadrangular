@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #040000;
+  background-color: ${theme.colors.dark};
 
   display: flex;
   align-items: flex-start;
@@ -15,22 +16,22 @@ export const Container = styled.div`
 
   .rec.rec-arrow {
     background-color: transparent;
-    color: #efefef;
+    color: ${theme.colors.darkwhite};
 
     border: transparent;
     border-radius: 0;
   }
 
   .rec.rec-arrow:hover {
-    border: 2px solid #00f0ff;
+    border: 2px solid ${theme.colors.cyan};
     border-radius: 50%;
-    background: rgba(0, 245, 255, 0.8); /* Old browsers */
+    background: ${theme.colors.aquan80}; /* Old browsers */
     background: -moz-radial-gradient(
       center,
       ellipse cover,
-      rgba(0, 245, 255, 0.8) 0%,
-      rgba(0, 191, 255, 0.5) 50%,
-      #040000 100%
+      ${theme.colors.aquan80} 0%,
+      ${theme.colors.deepskyblue50} 50%,
+      ${theme.colors.dark} 100%
     ); /* FF3.6+ */
     background: -webkit-gradient(
       radial,
@@ -38,39 +39,39 @@ export const Container = styled.div`
       0px,
       center center,
       100%,
-      color-stop(0%, rgba(0, 245, 255, 0.8)),
-      color-stop(50%, rgba(0, 191, 255, 0.5)),
-      color-stop(100%, #040000)
+      color-stop(0%, ${theme.colors.aquan80}),
+      color-stop(50%, ${theme.colors.deepskyblue50}),
+      color-stop(100%, ${theme.colors.dark})
     ); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(
       center,
       ellipse cover,
-      rgba(0, 245, 255, 0.8) 0%,
-      rgba(0, 191, 255, 0.5) 50%,
-      #040000 100%
+      ${theme.colors.aquan80} 0%,
+      ${theme.colors.deepskyblue50} 50%,
+      ${theme.colors.dark} 100%
     ); /* Chrome10+,Safari5.1+ */
     background: -o-radial-gradient(
       center,
       ellipse cover,
-      rgba(0, 245, 255, 0.8) 0%,
-      rgba(0, 191, 255, 0.5) 50%,
-      #040000 100%
+      ${theme.colors.aquan80} 0%,
+      ${theme.colors.deepskyblue50} 50%,
+      ${theme.colors.dark} 100%
     ); /* Opera 12+ */
     background: -ms-radial-gradient(
       center,
       ellipse cover,
-      rgba(0, 245, 255, 0.8) 0%,
-      rgba(0, 191, 255, 0.5) 50%,
-      #040000 100%
+      ${theme.colors.aquan80} 0%,
+      ${theme.colors.deepskyblue50} 50%,
+      ${theme.colors.dark} 100%
     ); /* IE10+ */
     background: radial-gradient(
       ellipse at center,
-      rgba(0, 245, 255, 0.8) 0%,
-      rgba(0, 191, 255, 0.5) 50%,
-      #040000 100%
+      ${theme.colors.aquan80} 0%,
+      ${theme.colors.deepskyblue50} 50%,
+      ${theme.colors.dark} 100%
     ); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0, 245, 255, 0.8)', endColorstr='#040000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    color: #000000;
+    color: ${theme.colors.black};
   }
 
   .rec.rec-arrow:disabled {
@@ -78,15 +79,15 @@ export const Container = styled.div`
   }
 
   .rec-dot {
-    background-color: rgba(0, 245, 255, 0.5);
-    box-shadow: 0 0 1px 3px rgba(0, 245, 255, 0.5);
+    background-color: ${theme.colors.aquan50};
+    box-shadow: 0 0 1px 3px ${theme.colors.aquan50};
     margin: 0 17px;
   }
 
   .rec-dot:hover,
   .rec-dot:active,
   .rec-dot:focus {
-    box-shadow: 0 0 1px 3px rgba(0, 245, 255);
+    box-shadow: 0 0 1px 3px ${theme.colors.aquan};
   }
 
   @media (max-width: 1440px) {
@@ -124,7 +125,7 @@ export const Img = styled.img`
 export const Item = styled.div`
   img {
     width: 286px;
-    border: 1px solid #00f0ff;
+    border: 1px solid ${theme.colors.cyan};
   }
 
   @media (max-width: 1440px) {

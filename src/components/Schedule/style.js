@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import BackgroundImage from '../../assets/bolls_group_agenda.svg'
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const Container = styled.div`
@@ -9,7 +10,7 @@ export const Container = styled.div`
 
   width: 100%;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: ${theme.colors.white};
 
   display: flex;
   align-items: flex-start;
@@ -33,7 +34,7 @@ export const Img = styled.img`
   margin: 56px 0 30px 42px;
 
   @media (max-width: 1440px) {
-    margin: ${px2vw(35)} 0 0 0;
+    margin: ${px2vw(15)} 0 0 ${px2vw(-30)};
   }
 
   @media (max-width: 1024px) {
@@ -61,7 +62,7 @@ export const ContainerDates = styled.div`
 export const ContainerImgDate = styled.div`
   padding: 50px;
   border-radius: 85px;
-  background: rgba(217, 217, 217, 0.5);
+  background: ${theme.colors.lightgray50};
   backdrop-filter: blur(2px);
 
   display: flex;
@@ -75,9 +76,14 @@ export const ContainerImgDate = styled.div`
   }
 
   @media (max-width: 1440px) {
-    padding: 45px;
-    margin: 10px 30px;
-    gap: 40px;
+    padding: ${px2vw(45)};
+    margin: ${px2vw(5)} 30px;
+    gap: ${px2vw(35)};
+
+    p {
+      font-size: ${px2vw(35)};
+      line-height: ${px2vw(40)};
+    }
   }
 
   @media (max-width: 428px) {

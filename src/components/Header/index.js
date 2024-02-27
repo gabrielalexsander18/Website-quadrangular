@@ -13,15 +13,15 @@ export function Header() {
     <>
       <Container>
         <ContainerRigth>
-          <PageLink>
-            {/* <Link
-              to="ourMission"
+          <PageLink /* style={{ cursor: 'default' }} */>
+            <Link
+              to="vision"
               smooth={true}
               duration={500}
               // offset={-20}
-            > */}
-            MISSÃO
-            {/* </Link> */}
+            >
+              VISÃO
+            </Link>
           </PageLink>
 
           <PageLink>

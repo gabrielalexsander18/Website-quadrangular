@@ -2,6 +2,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import styled from 'styled-components'
 
+import { theme } from '../../styles/theme'
 import px2vw from '../../utils/px2vw'
 
 export const FixedComponent = styled.div`
@@ -97,7 +98,7 @@ export const PageLinkFixed = styled.a`
   background: none;
   text-decoration: none;
 
-  color: #ffffff;
+  color: ${theme.colors.white};
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -116,14 +117,6 @@ export const PageLinkFixed = styled.a`
       display: none;
     }
   }
-
-  /* @media (max-width: 768px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: ${px2vw(50)};
-  } */
 `
 
 /// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -138,7 +131,7 @@ export const ScrollableContent = styled.div`
 export const Container = styled.div`
   width: 100%;
   height: 230px;
-  background-color: #141414;
+  background-color: ${theme.colors.darkgrey};
 
   padding: 53px 0 19px;
 
@@ -165,7 +158,7 @@ export const PageLink = styled.a`
   background: none;
   text-decoration: none;
 
-  color: #ffffff;
+  color: ${theme.colors.white};
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -211,9 +204,9 @@ export const ContainerBotton = styled.div`
 `
 
 export const InstagramIconEdit = styled(InstagramIcon)`
-  color: #ffffff;
+  color: ${theme.colors.white};
 `
 
 export const FacebookIconEdit = styled(FacebookIcon)`
-  color: #ffffff;
+  color: ${theme.colors.white};
 `
