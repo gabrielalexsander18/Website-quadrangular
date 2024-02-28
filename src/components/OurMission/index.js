@@ -36,7 +36,7 @@ export function OurMission() {
               A Igreja do Evangelho Quadrangular existe para glorificar o nome
               de Deus e promover o crescimento do Seu reino na terra. O
               mandamento de Jesus Cristo é levar o evangelho e fazer discípulos
-              em todas as nações (Marcos, 16:15; Mateus, 28:19). Por isso, a
+              em todas as nações (Marcos 16:15; Mateus 28:19). Por isso, a
               Igreja Quadrangular dedica-se à causa do evangelismo
               interdenominacional e mundial, o que expressa o seu espírito e
               foco.

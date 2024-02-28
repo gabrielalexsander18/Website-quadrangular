@@ -95,15 +95,6 @@ export const Container = styled.div`
   }
 `
 
-export const ContainerCarousel = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-`
-
 export const Img = styled.img`
   margin: 63px 0 0 84px;
   z-index: 1;
@@ -119,25 +110,6 @@ export const Img = styled.img`
   @media (max-width: 320px) {
     margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(30)};
     width: ${px2vw(1150)};
-  }
-`
-
-export const Item = styled.div`
-  img {
-    width: 286px;
-    border: 1px solid ${theme.colors.cyan};
-  }
-
-  @media (max-width: 1440px) {
-    img {
-      width: 250px;
-    }
-  }
-
-  @media (max-width: 428px) {
-    img {
-      width: ${px2vw(900)};
-    }
   }
 `
 
