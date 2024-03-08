@@ -15,7 +15,7 @@ export const Container = styled.div`
   gap: 45px;
 
   @media (max-width: 1440px) {
-    height: calc(100vh - 146px);
+    height: calc(100vh - 11.5rem);
     padding: 27px 0 70px;
 
     gap: 22px;
@@ -29,7 +29,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 320px) {
-    height: calc(100vh - 115px);
+    height: calc(100vh - 9.5rem);
     padding: 20px 0 0;
 
     gap: 15px;

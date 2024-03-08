@@ -1,7 +1,13 @@
 import React from 'react'
 
 import logoSchedule from '../../assets/agenda.svg'
-import { Container, Img, ContainerDates, ContainerImgDate } from './style'
+import {
+  Container,
+  Img,
+  ContainerDates,
+  ContainerDays,
+  ContainerContains
+} from './style'
 
 export function Schedule() {
   return (
@@ -9,17 +15,25 @@ export function Schedule() {
       <Container id="schedule">
         <Img src={logoSchedule} alt="eventos" />
         <ContainerDates>
-          <ContainerImgDate>
-            <p>Segunda - reunião de diaconato às 19:30</p>
-            <p>Terça - Culto de homens e mulheres às 19:30</p>
-            <p>Quarta - Culto às 19:30</p>
-            <p>Sexta - Culto de libertação às 19:30</p>
+          <ContainerDays>
+            <p>Segunda - </p>
+            <p>Terça - </p>
+            <p>Quarta - </p>
+            <p>Sexta - </p>
+            <p>Sábado - </p>
+            <p>Domingo - </p>
+          </ContainerDays>
+          <ContainerContains>
+            <p>reunião de diaconato às 19:30</p>
             <p>
-              Sábado - Culto de crianças às 9:30 / Culto de adolescentes às
-              17:30 / Culto de jovens às 19:00
+              Encontro de homens e mulheres quinzenalmente às 19:00 /
+              Quadrangular futebol clube quinzenalmente às 19:30
             </p>
-            <p>Domingo - EBD às 8:30 / Culto às 19:30</p>
-          </ContainerImgDate>
+            <p>Culto às 19:30</p>
+            <p>Culto de libertação às 19:30</p>
+            <p>Encontro de jovens e adolescentes quinzenalmente às 19:00</p>
+            <p>DBQ às 8:30 / Culto às 19:00 / Igreja kids às 19:00</p>
+          </ContainerContains>
         </ContainerDates>
       </Container>
     </>

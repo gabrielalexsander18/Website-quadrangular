@@ -6,6 +6,7 @@ import {
   ContainerTopFixed,
   ContainerBottonFixed,
   PageLinkFixed,
+  TextCopy,
   ScrollableContent,
   Container,
   PageLink,
@@ -95,6 +96,16 @@ export function Baseboard() {
               <p>Quadrangular Ouro Branco</p>
             </PageLink>
           </ContainerBotton>
+          <TextCopy>
+            © 2024 criado por
+            <a
+              href="https://www.linkedin.com/in/gabriel-alexsander-faria-abreu-b461b1250/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Gabriel Abreu
+            </a>
+          </TextCopy>
         </Container>
       </ScrollableContent>
     </>

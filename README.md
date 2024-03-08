@@ -9,8 +9,9 @@
         Baseboard                 1920px,  1440px,  1024px,  768px,  428px,  390px,  320px
         Vision                    1920px,  1440px,  1024px,  768px,  428px,  390px,  320px
 
- Atualizações: favicon trocado, textos justificados, organizado cores em um so arquivo, componente VISION adicionado
+ Atualizações: favicon trocado, textos justificados, organizado cores em um so arquivo, componente VISION adicionado, componente Baseboard atualizado, component Header atualizado
 
-
-    <===Fazer componente VISION com oq cada simbolo significa===> Concluido
-    <===Colocar artes que já temos no componente Events e Cults===>
+=>> NÃO feitos:
+    --> Fazer componente separado para o carousel do Cults e colocar as artes nele => 50% concluido falta artes dos cultos
+    --> Mudar totalmente o component agenda/schudele
+    --> Bolar alguma ideia de colocar no component Events eventos q ja se passaram e os proximos eventos

@@ -1,21 +1,15 @@
 import styled from 'styled-components'
 
-import BackgroundImg from '../../assets/lines_cultos.svg'
-import { theme } from '../../styles/theme'
-import px2vw from '../../utils/px2vw'
+import { theme } from '../../../styles/theme'
+import px2vw from '../../../utils/px2vw'
 
-export const Container = styled.div`
+export const ContainerCarousel = styled.div`
   width: 100%;
-  height: 100vh;
-  background-color: ${theme.colors.tiffanyblue};
-  background-image: url('${BackgroundImg}');
-  background-size: cover;
-
+  height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 
   .rec.rec-arrow {
     background-color: transparent;
@@ -93,24 +87,28 @@ export const Container = styled.div`
     box-shadow: 0 0 1px 3px ${theme.colors.slategray};
   }
 
-  @media (max-width: 1440px) {
-    gap: 3px;
+  @media (max-width: 550px) {
+    .rec.rec-arrow {
+      display: none;
+    }
   }
 `
 
-export const Img = styled.img`
-  margin: 63px 0 0 84px;
+export const Item = styled.div`
+  img {
+    width: 286px;
+    border: 1px solid ${theme.colors.cyan};
+  }
 
   @media (max-width: 1440px) {
-    margin: ${px2vw(35)} 0 0 ${px2vw(80)};
+    img {
+      width: 250px;
+    }
   }
 
   @media (max-width: 428px) {
-    width: ${px2vw(1150)};
-  }
-
-  @media (max-width: 320px) {
-    margin: ${px2vw(100)} 0 ${px2vw(0)} ${px2vw(30)};
-    width: ${px2vw(1150)};
+    img {
+      width: ${px2vw(900)};
+    }
   }
 `

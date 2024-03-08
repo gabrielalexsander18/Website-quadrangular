@@ -34,11 +34,33 @@ export const PageLink = styled.a`
   cursor: pointer;
   background: none;
   text-decoration: none;
-
   font-size: 20px;
   line-height: 19px;
+  color: ${theme.colors.white};
 
-  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  letter-spacing: 0.03rem;
+  padding: 0 1rem;
+
+  &:hover {
+    color: ${theme.colors.cyan};
+  }
+
+  &::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: ${theme.colors.cyan};
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 
   @media (max-width: 1440px) {
     font-size: 18px;

@@ -1,13 +1,11 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
 
-import AcampCarnaval from '../../../assets/imgEvents/acamp_carnaval.svg'
-import AmanCristo from '../../../assets/imgEvents/amanhecer_cristo.svg'
-import RetiroPascoa from '../../../assets/imgEvents/retiro_pascoa.svg'
+import PapoJovem from '../../../assets/imgCults/papoJovem.svg'
 import Retangulo from '../../../assets/rectangle.svg'
 import { Item, ContainerCarousel } from './style'
 
-export function CarouselEvents() {
+export function CarouselCults() {
   const breakPoints = [
     { width: 1, itemsToShow: 1, itemsToScroll: 1, pagination: false },
     { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
@@ -28,13 +26,13 @@ export function CarouselEvents() {
           style={{ width: '90%', margin: '10px' }}
         >
           <Item>
-            <img src={AcampCarnaval} />
+            <img src={PapoJovem} />
           </Item>
           <Item>
-            <img src={AmanCristo} />
+            <img src={Retangulo} />
           </Item>
           <Item>
-            <img src={RetiroPascoa} />
+            <img src={Retangulo} />
           </Item>
           <Item>
             <img src={Retangulo} />

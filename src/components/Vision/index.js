@@ -17,7 +17,7 @@ export function Vision() {
         <Img src={logoVision} alt="visao" />
         <h5>
           Baseada inteiramente na Bíblia, mais especificamente na passagem
-          através da visão de Ezequiel (Ezequiel1). Somos uma das igrejas
+          através da visão de Ezequiel (Ezequiel 1). Somos uma das igrejas
           pentecostais pioneiras do avivamento carismático do início do século
           XX.
         </h5>

@@ -107,6 +107,13 @@ export const PageLinkFixed = styled.a`
     text-decoration: underline;
   }
 
+  position: relative;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: ${theme.colors.cyan};
+  }
+
   @media (max-width: 1440px) {
     font-size: 20px;
   }
@@ -142,12 +149,14 @@ export const Container = styled.div`
   gap: 11px;
 
   @media (max-width: 1440px) {
-    height: 146px;
-    padding: 5px 0;
+    height: 11.5rem;
+    padding: 5px 0 0;
+    justify-content: flex-end;
+    gap: 9px;
   }
 
   @media (max-width: 320px) {
-    height: 115px;
+    height: 9.5rem;
 
     gap: 8px;
   }
@@ -156,7 +165,6 @@ export const Container = styled.div`
 export const PageLink = styled.a`
   cursor: pointer;
   background: none;
-  text-decoration: none;
 
   color: ${theme.colors.white};
   font-size: 24px;
@@ -165,6 +173,13 @@ export const PageLink = styled.a`
 
   p {
     text-decoration: underline;
+  }
+
+  position: relative;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: ${theme.colors.cyan};
   }
 
   @media (max-width: 1440px) {
@@ -197,16 +212,62 @@ export const ContainerBotton = styled.div`
   justify-content: center;
   flex-direction: row;
   gap: 165px;
+  border-bottom: 1px solid ${theme.colors.lightgray60};
+  padding-bottom: 0.7rem;
+
+  @media (max-width: 1440px) {
+    padding-bottom: 0.5rem;
+  }
 
   @media (max-width: 428px) {
     gap: ${px2vw(240)};
   }
 `
 
+export const TextCopy = styled.p`
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: ${theme.colors.white};
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  a {
+    color: ${theme.colors.white};
+    margin-left: 0.35rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1440px) {
+    padding-bottom: 0.5rem;
+  }
+
+  @media (max-width: 320px) {
+    padding-bottom: 0.3rem;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+`
+
 export const InstagramIconEdit = styled(InstagramIcon)`
   color: ${theme.colors.white};
+  position: relative;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: ${theme.colors.cyan};
+  }
 `
 
 export const FacebookIconEdit = styled(FacebookIcon)`
   color: ${theme.colors.white};
+  position: relative;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: ${theme.colors.cyan};
+  }
 `

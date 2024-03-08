@@ -53,32 +53,21 @@ export const Img = styled.img`
 `
 
 export const ContainerDates = styled.div`
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
-`
 
-export const ContainerImgDate = styled.div`
+  margin: 0 50px;
   padding: 50px;
   border-radius: 85px;
   background: ${theme.colors.lightgray50};
   backdrop-filter: blur(2px);
 
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
-  p {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 45px;
-  }
-
   @media (max-width: 1440px) {
     padding: ${px2vw(45)};
     margin: ${px2vw(5)} 30px;
-    gap: ${px2vw(35)};
+    /* gap: ${px2vw(35)}; */
 
     p {
       font-size: ${px2vw(35)};
@@ -91,7 +80,7 @@ export const ContainerImgDate = styled.div`
     margin: ${px2vw(20)} ${px2vw(70)};
     border-radius: 35px;
 
-    gap: 20px;
+    /* gap: 20px; */
 
     p {
       font-size: ${px2vw(90)};
@@ -101,6 +90,102 @@ export const ContainerImgDate = styled.div`
 
   @media (max-width: 320px) {
     margin: ${px2vw(10)} ${px2vw(40)};
+
+    /* gap: 10px; */
+
+    p {
+      font-size: ${px2vw(80)};
+      line-height: ${px2vw(115)};
+    }
+  }
+`
+
+export const ContainerDays = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 15%;
+
+  p {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  @media (max-width: 1440px) {
+    /* padding: ${px2vw(45)};
+    margin: ${px2vw(5)} 30px; */
+    gap: ${px2vw(35)};
+
+    p {
+      font-size: ${px2vw(35)};
+      line-height: ${px2vw(40)};
+    }
+  }
+
+  @media (max-width: 428px) {
+    /* padding: ${px2vw(70)};
+    margin: ${px2vw(20)} ${px2vw(70)};
+    border-radius: 35px; */
+
+    gap: 20px;
+
+    p {
+      font-size: ${px2vw(90)};
+      line-height: ${px2vw(125)};
+    }
+  }
+
+  @media (max-width: 320px) {
+    /* margin: ${px2vw(10)} ${px2vw(40)}; */
+
+    gap: 10px;
+
+    p {
+      font-size: ${px2vw(80)};
+      line-height: ${px2vw(115)};
+    }
+  }
+`
+
+export const ContainerContains = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 85%;
+
+  p {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  @media (max-width: 1440px) {
+    /* padding: ${px2vw(45)};
+    margin: ${px2vw(5)} 30px; */
+    gap: ${px2vw(30)};
+
+    p {
+      font-size: ${px2vw(35)};
+      line-height: ${px2vw(40)};
+    }
+  }
+
+  @media (max-width: 428px) {
+    /* padding: ${px2vw(70)};
+    margin: ${px2vw(20)} ${px2vw(70)};
+    border-radius: 35px; */
+
+    gap: 20px;
+
+    p {
+      font-size: ${px2vw(90)};
+      line-height: ${px2vw(125)};
+    }
+  }
+
+  @media (max-width: 320px) {
+    /* margin: ${px2vw(10)} ${px2vw(40)}; */
 
     gap: 10px;
 
