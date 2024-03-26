@@ -237,6 +237,14 @@ export const TextCopy = styled.p`
     margin-left: 0.35rem;
     text-decoration: underline;
     cursor: pointer;
+
+    &:hover {
+      color: ${theme.colors.tiffanyblue};
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
   }
 
   @media (max-width: 1440px) {

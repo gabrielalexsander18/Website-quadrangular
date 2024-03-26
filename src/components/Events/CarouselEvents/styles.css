@@ -1,0 +1,162 @@
+.containerEvents { /* raiz do Swiper */
+  width: 95%;
+  height: 100%;
+  padding: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.swiper-wrapper { /* div onde fica todos os SwiperSlides */
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next { /* Botôes anterior e próximo SwiperSlide */
+    color: #efefef;
+}
+
+.containerEvents > .swiper-button-prev:hover,
+.containerEvents > .swiper-button-next:hover {
+  transform: scale(1.1);
+  color: #00f0ff;
+}
+
+.containerEvents > .swiper-button-prev:active,
+.containerEvents > .swiper-button-next:active {
+  transform: scale(1.05);
+  color: rgba(0, 240, 255, 0.5);
+}
+
+/* .swiper-button-prev { /* Botão anterior SwiperSlide
+  left: var(--swiper-navigation-sides-offset, 8px);
+} */
+
+/* .swiper-button-next { /* Botão próximo SwiperSlide
+  right: var(--swiper-navigation-sides-offset, -.1rem);
+} */
+
+.swiper-pagination-fraction, 
+.swiper-pagination-custom, 
+.swiper-horizontal > .swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal { /* DIV com todos os Paginations */
+  bottom: var(--swiper-pagination-bottom, 5rem);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet { /* TODOS os Paginations */
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 0.5rem);
+}
+
+.containerEvents > .swiper-pagination > .swiper-pagination-bullet { /* CADA Pagination */
+  opacity: 0.7;
+  padding: 0.45rem;
+  border-radius: 150px;
+  background-color: rgba(0, 245, 255, 0.5);
+}
+
+.containerEvents > .swiper-pagination > .swiper-pagination-bullet-active { /* QUANDO o Pagination esta ativado */
+  opacity: 1;
+  padding: 0.45rem;
+  border-radius: 150px;
+  box-shadow: 0 0 1px 3px rgba(0, 245, 255)
+}
+
+.item { /* Todos os SwiperSlides */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    img {
+      width: 17.875rem;
+      border: 1px solid #00f0ff;
+    }
+}
+
+  @media (max-width: 1440px) {
+    .swiper-pagination-fraction, 
+    .swiper-pagination-custom, 
+    .swiper-horizontal > .swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, 1rem);
+    }
+
+    .item{
+      img {
+        width: 15.274rem;
+      }
+    }
+  }
+
+  @media (max-width: 834px) {
+    .swiper-pagination-fraction, 
+    .swiper-pagination-custom, 
+    .swiper-horizontal > .swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, 7rem);
+    }
+  }
+
+  @media (max-width: 428px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+
+    .swiper-pagination-fraction, 
+    .swiper-pagination-custom, 
+    .swiper-horizontal > .swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, 3rem);
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet { /* TODOS os Paginations */
+      margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 0.35rem);
+    }
+
+    .swiper-pagination > .swiper-pagination-bullet {
+      padding: 0.4rem;
+    }
+    
+    .swiper-pagination > .swiper-pagination-bullet-active {
+      padding: 0.4rem;
+    }
+
+    .item{
+      img {
+        width: 17.692rem;
+      }
+    }
+  }
+
+  @media (max-width: 390px) {
+    .item {
+      img {
+        width: 14.586rem;
+      }
+    }
+  }
+
+  @media (max-width: 320px) {
+    .swiper-pagination-fraction, 
+    .swiper-pagination-custom, 
+    .swiper-horizontal > .swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, .2rem);
+    }
+
+    .containerEvents > .swiper-pagination > .swiper-pagination-bullet {
+      padding: 0.35rem;
+    }
+    
+    .containerEvents > .swiper-pagination > .swiper-pagination-bullet-active {
+      padding: 0.35rem;
+    }
+
+    .item {
+      img {
+        width: 12.1rem;
+      }
+    }
+  }
