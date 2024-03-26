@@ -22,7 +22,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 428px) {
-    height: calc(100vh - 146px);
+    height: calc(100vh - 11.5rem);
     padding: 27px 0 0px;
 
     gap: 22px;
